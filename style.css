@@ -30,6 +30,7 @@ img {
 
 p, h1 {
     overflow-wrap: break-word;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 body {
@@ -45,10 +46,36 @@ body {
 #card-component {
     background-color: white;
     width: 450px;
-    height: 630px;
+    height: 600px;
     border-radius: 20px;
 }
 
 .illustration-hero {
     border-radius: 20px 20px 0 0;
+    padding-bottom: 30px;
+}
+
+#description {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+.tagline {
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.sub-plan {
+    padding-bottom: 25px;
+}
+
+button {
+    padding: 10px 70px;
+}
+
+.cancel {
+    padding-top: 25px;
 }
