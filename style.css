@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Outfit&family=Prosto+One&family=Red+Hat+Display:wght@500&display=swap');
 
-/*font-family: 'Red Hat Display', sans-serif;*/
-
 :root {
     --Pale-blue: hsl(225, 100%, 94%);
     --Bright-blue: hsl(245, 75%, 52%);
@@ -45,9 +43,10 @@ body {
 
 #card-component {
     background-color: white;
-    width: 450px;
-    height: 600px;
+    width: 400px;
+    height: 590px;
     border-radius: 20px;
+    box-shadow: 0px 11px 15px rgba(73, 73, 172, 0.192);
 }
 
 .illustration-hero {
@@ -60,22 +59,80 @@ body {
 }
 
 h1 {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    font-weight: 900;
 }
 
 .tagline {
     padding-bottom: 25px;
-    flex-wrap: wrap;
+    color: var(--Desaturated-blue);
 }
 
-.sub-plan {
-    padding-bottom: 25px;
+#tag-line-div {
+    width: 300px;
+    display: inline-flex;
+    margin: 0;
 }
 
 button {
-    padding: 10px 70px;
+    padding: 15px 100px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--Bright-blue);
+    color: white;
+    box-shadow: 0px 10px 10px 5px rgba(15, 11, 247, 0.158);
+    font-weight: 700;
 }
 
 .cancel {
     padding-top: 25px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.sub-plan {
+    display: inline-flex;
+    width: 330px;
+    height: 70px;
+    background-color: var(--Very-pale-blue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.music-icon {
+    block-size: 40px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.plan {
+    display: flex;
+    padding-top: 13px;
+}
+
+.subscription {
+    inline-size: 150px;
+    padding-right: 25px;
+}
+
+.change {
+    padding-top: 23px;
+    padding-left: 40px;
+    font-weight: 700;
+}
+
+.annual {
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
+
+.price {
+    color: var(--Desaturated-blue);
+}
+
+.cancel {
+    font-weight: 700;
+    color: var(--Desaturated-blue);
 }
