@@ -71,7 +71,6 @@ h1 {
 #tag-line-div {
     width: 300px;
     display: inline-flex;
-    margin: 0;
 }
 
 button {
@@ -135,4 +134,51 @@ p {
 .cancel {
     font-weight: 700;
     color: var(--Desaturated-blue);
+}
+
+button:hover {
+    background-color: rgba(55, 13, 153, 0.678);
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(55, 13, 153, 0.678);
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+@media (max-width: 375px) {
+    #card-component {
+        width: 330px;
+        height: 540px;
+    }
+
+    p {
+        font-size: .9em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    #tag-line-div {
+        width: 247px;
+    }
+
+    .sub-plan {
+        width: 290px;
+    }
+
+    .change {
+        padding-left: 7px;
+    }
+
+    button {
+        padding: 20px 78px;
+        border-radius: 13px;
+    }
 }
