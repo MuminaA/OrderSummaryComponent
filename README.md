@@ -1,19 +1,56 @@
-# Frontend Mentor - Order summary card
+# Frontend Mentor - Order summary card solution
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
-## The challenge
+## Table of contents
 
-Your challenge is to build out this order summary card component and get it looking as close to the design as possible.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-Your users should be able to:
+## Overview
+
+### The challenge
+
+Users should be able to:
 
 - See hover states for interactive elements
 
-## Create a custom `README.md`
+### Links
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- Solution URL: [https://github.com/MuminaA/OrderSummaryComponent]
+- Live Site URL: [https://muminaa.github.io/OrderSummaryComponent/]
+## My process
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+ - Create the HTML layout of the site
+ - Position everything
+ - Style 
+ - check style details, fix what needs to be fixed
+ - make responsive
+ - re-evaluate style, fix what needs to be fixed
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [https://fonts.google.com/specimen/Red+Hat+Display] - For font styles
+
+### What I learned
+
+I learned how to better position and align content
+
+### Continued development
+
+I want to perfect my understanding of positioning and aligning items
+
+## Author
+
+- Website - [Mumina Abdi](https://muminaabdi13.wixsite.com/mumina-abdi-s-portfo)
+- Frontend Mentor - [@MuminaA](https://www.frontendmentor.io/profile/MuminaA)
