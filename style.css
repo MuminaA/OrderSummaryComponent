@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Outfit&family=Prosto+One&family=Red+Hat+Display:wght@500&display=swap');
+
+/*font-family: 'Red Hat Display', sans-serif;*/
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1 {
+    overflow-wrap: break-word;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: var(--Pale-blue);
+}
+
+#card-component {
+    background-color: white;
+    width: 450px;
+    height: 630px;
+    border-radius: 20px;
+}
+
+.illustration-hero {
+    border-radius: 20px 20px 0 0;
+}
